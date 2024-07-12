@@ -1,6 +1,6 @@
 # anti-fraud-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+一个使用Vue3+ElementPlus+Axios构建的后台管理系统的前端项目，是大学生的作业，比较简陋。
 
 ## Recommended IDE Setup
 
@@ -10,19 +10,19 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## 运行方法
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 运行
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 打包
 
 ```sh
 npm run build
