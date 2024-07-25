@@ -33,7 +33,8 @@ const QUESTION_ANALYSIS = "解析"
 const QUESTION_ANSWER = "答案"
 const QUESTION_SEARCH_PLACEHOLDER = "题目/选项/解析"
 
-const AXIOS_API_FRONT = ''
+//打包前将AXIOS_API_FRONT改为空字符串，测试环境是'/api'
+const AXIOS_API_FRONT = '/api'
 const allConstants = {
     MANAGE_INDEX,
 

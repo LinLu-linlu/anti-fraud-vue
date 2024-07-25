@@ -13,7 +13,7 @@ var login = () => {
     axios.post($CONST.AXIOS_API_FRONT + '/admin/login',
         {
             username: username.value,
-            password: md5(md5(password.value))
+            password: md5(password.value)
         }, {
         headers: {
             'Content-Type': 'application/json'

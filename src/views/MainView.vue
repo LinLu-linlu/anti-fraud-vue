@@ -2,7 +2,8 @@
 import {
     Postcard,
     User,
-    House
+    House,
+    Tickets
 } from '@element-plus/icons-vue'
 import { useRouter } from 'vue-router'
 import { getCurrentInstance } from 'vue'
@@ -58,12 +59,12 @@ const $CONST = getCurrentInstance().appContext.config.globalProperties.$CONST;
                             </el-icon>
                             <span>{{ $CONST.USER_MANAGE }}</span>
                         </el-menu-item>
-                        <!-- <el-menu-item index="/main/questions-manage">
+                        <el-menu-item index="/main/questions-manage">
                             <el-icon>
                                 <Tickets />
                             </el-icon>
-                            <span>题库管理</span>
-                        </el-menu-item> -->
+                            <span>{{ $CONST.QUESTION_MANAGE }}</span>
+                        </el-menu-item>
                     </el-menu>
                 </el-aside>
                 <el-main>
